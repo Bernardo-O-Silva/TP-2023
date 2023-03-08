@@ -53,11 +53,12 @@ class CorridaSapos {
 
         for(int comparador = 0; comparador < numSapos; comparador++){
 
-
+            scan.nextLine();
+            
             System.out.print("Digite o nome do sapo " + (comparador + 1) + ": ");
             auxNome = scan.nextLine();            
 
-            scan.nextLine();
+           
 
             vaiDeNovo = true;
 
