@@ -34,7 +34,7 @@ class CorridaSapos {
 
         while (vaiDeNovo == true) {
 
-            System.out.print("Digite a distância da corrida (em km): ");
+            System.out.print("Digite a distância da corrida (em m): ");
             distanciaCorrida = scan.nextDouble();
 
             if (distanciaCorrida > 0){
@@ -64,7 +64,7 @@ class CorridaSapos {
 
             while (vaiDeNovo == true) {
 
-                System.out.print("Digite a distância do pulo do sapo (em km, sim eles pulam muito): ");
+                System.out.print("Digite a distância do pulo do sapo (em m): ");
                 auxPulo = scan.nextDouble();
     
                 if (distanciaCorrida > 0){
