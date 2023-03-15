@@ -10,7 +10,7 @@ public class Servidor {
         System.out.println("Porta 12345 aberta!");
 
         Socket cliente = servidor.accept();
-        System.out.println("Nova conexao com o cliente" + cliente.getInetAddress().getHostAddress());
+        System.out.println("Nova conexao com o cliente " + cliente.getInetAddress().getHostAddress());
 
         Scanner s = new Scanner(cliente.getInputStream());
         
